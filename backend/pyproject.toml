@@ -1,0 +1,7 @@
+[project]
+name = "showing"
+version = "0.0.1"
+requires-python = "==3.12.*"
+dependencies = ["fastapi[standard]"]
+
+[project.scripts]
