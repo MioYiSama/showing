@@ -12,7 +12,6 @@ export default defineConfig({
         manualChunks: {
           preact: ["preact"],
           "preact-iso": ["preact-iso"],
-          clsx: ["clsx"],
         },
       },
     },
