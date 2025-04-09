@@ -1,9 +1,9 @@
-import { sveltekit } from "@sveltejs/kit/vite";
+import preact from "@preact/preset-vite";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  plugins: [sveltekit(), tailwindcss()],
+  plugins: [preact(), tailwindcss()],
   build: {
     target: "es2015",
   },

@@ -3,18 +3,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "start": "cd build && bun run index.js",
-    "prepare": "svelte-kit sync || echo ''"
+    "build": "vite build"
+  },
+  "dependencies": {
+    "clsx": "latest",
+    "preact": "latest",
+    "preact-iso": "latest",
+    "tailwindcss": "latest"
   },
   "devDependencies": {
-    "@sveltejs/adapter-node": "latest",
-    "@sveltejs/kit": "latest",
-    "@sveltejs/vite-plugin-svelte": "latest",
+    "@preact/preset-vite": "latest",
     "@tailwindcss/vite": "latest",
-    "@types/bun": "latest",
-    "svelte": "latest",
-    "tailwindcss": "latest",
+    "prettier": "latest",
+    "prettier-plugin-tailwindcss": "latest",
     "typescript": "latest",
     "vite": "latest"
   }
