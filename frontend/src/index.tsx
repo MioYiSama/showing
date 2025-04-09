@@ -1,4 +1,5 @@
 import { render } from "preact";
+import App from "./App";
 import "./index.css";
 
-render(<h1 className="p-1 font-bold">Hello</h1>, document.body);
+render(<App />, document.body);
