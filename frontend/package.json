@@ -1,0 +1,19 @@
+{
+  "name": "showing",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "cd build && bun run index.js",
+    "prepare": "svelte-kit sync || echo ''"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "latest",
+    "@sveltejs/kit": "latest",
+    "@sveltejs/vite-plugin-svelte": "latest",
+    "@types/bun": "latest",
+    "svelte": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
