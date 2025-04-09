@@ -1,1 +1,1 @@
-<p class="grow font-bold flex">Hello</p>
+<p class="p-4 font-bold flex grow">Hello</p>
