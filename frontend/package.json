@@ -11,8 +11,10 @@
     "@sveltejs/adapter-node": "latest",
     "@sveltejs/kit": "latest",
     "@sveltejs/vite-plugin-svelte": "latest",
+    "@tailwindcss/vite": "latest",
     "@types/bun": "latest",
     "svelte": "latest",
+    "tailwindcss": "latest",
     "typescript": "latest",
     "vite": "latest"
   }
