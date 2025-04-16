@@ -6,11 +6,9 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "latest",
-    "@fortawesome/free-solid-svg-icons": "latest",
-    "@fortawesome/react-fontawesome": "latest",
+    "@ant-design/icons": "latest",
+    "antd": "latest",
     "clsx": "latest",
-    "daisyui": "latest",
     "preact": "latest",
     "preact-iso": "latest",
     "tailwindcss": "latest"

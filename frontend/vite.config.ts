@@ -6,5 +6,8 @@ export default defineConfig({
   plugins: [preact(), tailwindcss()],
   build: {
     target: "es2015",
+    rollupOptions: {
+      treeshake: "smallest",
+    },
   },
 });
